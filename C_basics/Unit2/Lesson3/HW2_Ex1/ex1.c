@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct18, 2021
+ *      Author: Anas
+ */
+ #include <stdio.h>
+ int main ()
+{
+  int Number;
+  printf ("Enter an integer you want to check : ");
+  scanf("%d",&Number);
+  if(Number%2==0)
+  {
+    printf("%d is even ",Number);
+  }
+  else
+  {
+    printf("%d is odd ",Number);
+  }
+  return 0;
+}
