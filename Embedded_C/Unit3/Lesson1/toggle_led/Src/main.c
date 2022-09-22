@@ -20,9 +20,9 @@
 typedef volatile uint32_t vuint32_t;
 
 // address of the peripherals
-#define RCC_base		    0x40021000
+#define RCC_base		        0x40021000
 #define GPIOA_base 			0x40010800
-#define RCC_APB2ENR         *(vuint32_t*)(RCC_base + 0x18)
+#define RCC_APB2ENR                     *(vuint32_t*)(RCC_base + 0x18)
 #define GPIOA_CRH 			*(vuint32_t*)(GPIOA_base + 0x04)
 #define GPIOA_ODR 			*(vuint32_t*)(GPIOA_base + 0x0C)
 
